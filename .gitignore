@@ -1,0 +1,34 @@
+# Private data and local configuration
+private/
+exports/
+raw/
+**/raw/
+*.local.json
+*.local.csv
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+*.har
+*.log
+*token*.txt
+*secret*.txt
+*password*.txt
+credentials*
+.azure/
+.mg/
+# Tooling
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+
+# Generated application builds and local editor state
+dist/
+.vscode/
+.idea/
